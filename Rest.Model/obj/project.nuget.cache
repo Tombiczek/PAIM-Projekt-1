@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kKgFG4cscwjalXCoxEQZiqz5GgV4IWP8Eyxotkp6ihM3m8Pn50lfxBThO8j1HvRldYLJOgq4aaJZntsN+Gbd9A==",
+  "success": true,
+  "projectFilePath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Model/Rest.Model.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomek/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.15/microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "Name": "Oil change",
+    "Description": "fixing",
+    "Price": 200
+  },
+  {
+    "Id": 2,
+    "Name": "Cleaning",
+    "Description": "fun",
+    "Price": 50
+  }
+]

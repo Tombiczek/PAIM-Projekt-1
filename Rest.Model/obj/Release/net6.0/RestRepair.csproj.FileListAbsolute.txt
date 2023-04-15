@@ -1,0 +1,15 @@
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/bin/Release/net6.0/RestRepair.deps.json
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/bin/Release/net6.0/RestRepair.dll
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/bin/Release/net6.0/RestRepair.pdb
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/bin/Release/net6.0/Model.dll
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/bin/Release/net6.0/Model.pdb
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.csproj.AssemblyReference.cache
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.AssemblyInfoInputs.cache
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.AssemblyInfo.cs
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.csproj.CoreCompileInputs.cache
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.csproj.CopyComplete
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.dll
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/refint/RestRepair.dll
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/RestRepair.pdb
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/RestRepair/obj/Release/net6.0/ref/RestRepair.dll
