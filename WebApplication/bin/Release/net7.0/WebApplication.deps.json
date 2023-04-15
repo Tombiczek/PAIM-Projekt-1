@@ -11,7 +11,8 @@
           "Logic": "1.0.0",
           "Model": "1.0.0",
           "Rest.Model": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "TestsProj": "1.0.0"
         },
         "runtime": {
           "WebApplication.dll": {}
@@ -84,6 +85,15 @@
         "runtime": {
           "Rest.Model.dll": {}
         }
+      },
+      "TestsProj/1.0.0": {
+        "dependencies": {
+          "Logic": "1.0.0",
+          "Rest.Model": "1.0.0"
+        },
+        "runtime": {
+          "TestsProj.dll": {}
+        }
       }
     }
   },
@@ -146,6 +156,11 @@
       "sha512": ""
     },
     "Rest.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestsProj/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

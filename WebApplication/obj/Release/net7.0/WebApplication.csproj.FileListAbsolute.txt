@@ -76,3 +76,5 @@ C:/Users/tomek/OneDrive/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebAp
 /Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebApplication/obj/Release/net7.0/ref/WebApplication.dll
 /Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebApplication/bin/Release/net7.0/Rest.Model.dll
 /Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebApplication/bin/Release/net7.0/Rest.Model.pdb
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebApplication/bin/Release/net7.0/TestsProj.dll
+/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/WebApplication/bin/Release/net7.0/TestsProj.pdb

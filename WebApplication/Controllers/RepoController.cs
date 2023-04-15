@@ -3,6 +3,7 @@ using Model;
 using Rest.Model.Converters;
 using Rest.Model.Model;
 using Rest.Model.Services;
+using TestsProj;
 
 namespace WebApplication.Controllers
 {
@@ -14,23 +15,23 @@ namespace WebApplication.Controllers
 
   using Microsoft.AspNetCore.Mvc;
   using Microsoft.Extensions.Logging;
-    using Model.Services;
+  using Model.Services;
 
-    [ApiController]
-  [Route( "[controller]" )]
-  public class RepoController : ControllerBase, IRestRepair
+  [ApiController]
+  [Route("[controller]")]
+  public class RepoController : ControllerBase, IRestRepair, ITestsService
   {
     private readonly ILogger<RepoController> _logger;
     private readonly IRepo _repo;
 
-    public RepoController( ILogger<RepoController> logger )
+    public RepoController(ILogger<RepoController> logger)
     {
       _logger = logger;
-      _repo = new Repo( );
+      _repo = new Repo();
     }
 
 
-    
+
     [HttpGet]
     [Route("GetById")]
     public RepairDto[] GetDtoById(int id)
@@ -40,12 +41,22 @@ namespace WebApplication.Controllers
     }
 
     [HttpGet]
-    [Route( "GetRepairs" )]
-    public RepairDto[ ] GetDtoRepairs()
+    [Route("GetRepairs")]
+    public RepairDto[] GetDtoRepairs()
     {
       var repairs = _repo.GetRepairs();
 
       return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
     }
+
+
+    [HttpGet]
+    [Route("RunTests")]
+    public string RunTests(string host, int port)
+    {
+      ITestsService tests = new Tests();
+      return tests.RunTests(host, port);
+    }
+
   }
 }

@@ -124,6 +124,20 @@
         "runtime": {
           "bin/placeholder/Rest.Model.dll": {}
         }
+      },
+      "TestsProj/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Logic": "1.0.0",
+          "Rest.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestsProj.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestsProj.dll": {}
+        }
       }
     }
   },
@@ -267,6 +281,11 @@
       "type": "project",
       "path": "../Rest.Model/Rest.Model.csproj",
       "msbuildProject": "../Rest.Model/Rest.Model.csproj"
+    },
+    "TestsProj/1.0.0": {
+      "type": "project",
+      "path": "../TestsProj/TestsProj.csproj",
+      "msbuildProject": "../TestsProj/TestsProj.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -274,7 +293,8 @@
       "Logic >= 1.0.0",
       "Model >= 1.0.0",
       "Rest.Model >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "TestsProj >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -310,6 +330,9 @@
             },
             "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Model/Rest.Model.csproj": {
               "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Model/Rest.Model.csproj"
+            },
+            "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/TestsProj/TestsProj.csproj": {
+              "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/TestsProj/TestsProj.csproj"
             }
           }
         }
