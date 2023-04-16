@@ -15,7 +15,7 @@ public class Program
                 const string webServiceHost = "localhost"; //args[0];
                 const ushort webServicePort = 7049; //ushort.Parse(args[1]);
                 const string id = "2"; //id example
-                const string carId = "1"; //carId example
+                const string carId = "WW9477W"; //carId example
                 const string mechanicId = "2"; //mechanicId example
                 const string clientId = "1"; //clientId example
                 const string name = "Cleaning"; //name example

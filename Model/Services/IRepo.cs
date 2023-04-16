@@ -10,7 +10,7 @@ namespace Model.Services
     {
         public Repair[] GetRepairs();
         public Repair[] FindById(int id);
-        public Repair[] FindByCarId(int carId);
+        public Repair[] FindByCarId(string carId);
         public Repair[] FindByClientId(int clientId);
         public Repair[] FindByMechanicId(int mechanicId);
 

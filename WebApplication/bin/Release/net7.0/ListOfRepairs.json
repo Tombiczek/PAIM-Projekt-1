@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "CarId": 1,
+    "CarId": "WW9477W",
     "ClientId": 1,
     "MechanicId": 1,
     "Name": "Oil change",
@@ -10,7 +10,7 @@
   },
   {
     "Id": 2,
-    "CarId": 1,
+    "CarId": "WW5343W",
     "ClientId": 1,
     "MechanicId": 2,
     "Name": "Cleaning",

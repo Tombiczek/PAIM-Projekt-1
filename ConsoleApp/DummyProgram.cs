@@ -10,7 +10,7 @@ public class DummyProgram
             try
             {
                 const int id = 2; //id example
-                const int carId = 1; //carId example
+                const string carId = "WW9477W"; //carId example
                 const int mechanicId = 2; //mechanicId example
                 const int clientId = 1; //clientId example
                 const string name = "Cleaning"; //name example

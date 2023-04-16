@@ -42,7 +42,7 @@ namespace WebApplication.Controllers
     
     [HttpGet]
     [Route("GetByCarId")]
-    public RepairDto[] GetDtoByCarId(int carId)
+    public RepairDto[] GetDtoByCarId(string carId)
     {
       var repairs = _repo.FindByCarId(carId);
       return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();

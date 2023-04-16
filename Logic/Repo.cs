@@ -34,7 +34,7 @@ namespace Logic
             }
         }
 
-        public Repair[] FindByCarId(int carId)
+        public Repair[] FindByCarId(string carId)
         {
             lock (RepoLock)
             {

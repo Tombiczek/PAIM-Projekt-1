@@ -23,14 +23,14 @@ public class DummyRestClient
         
         //********************************************************
 
-        public static async Task<RepairDto[]> GetByCarId(int carId)
+        public static async Task<RepairDto[]> GetByCarId(string carId)
         {
             var webServiceCall = CallWebServiceCarId(carId);
             var jsonResponseContent = await CallWebServiceCarId(carId);
             var repairs = ConvertJson(jsonResponseContent);
             return repairs;
         }
-        private static async Task<string> CallWebServiceCarId(int carId)
+        private static async Task<string> CallWebServiceCarId(string carId)
         {
             var repairs = new List<Repair>(RepoReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.CarId == carId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
