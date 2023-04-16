@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logic.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Rest.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rest.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rest.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logic/1.0.0": {
+      "type": "project",
+      "path": "../Logic/Logic.csproj",
+      "msbuildProject": "../Logic/Logic.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
+    "Rest.Model/1.0.0": {
+      "type": "project",
+      "path": "../Rest.Model/Rest.Model.csproj",
+      "msbuildProject": "../Rest.Model/Rest.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Logic >= 1.0.0",
+      "Model >= 1.0.0",
+      "Rest.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tomek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Client/Rest.Client.csproj",
+      "projectName": "Rest.Client",
+      "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Client/Rest.Client.csproj",
+      "packagesPath": "/Users/tomek/.nuget/packages/",
+      "outputPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Client/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tomek/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Logic/Logic.csproj": {
+              "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Logic/Logic.csproj"
+            },
+            "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Model/Model.csproj": {
+              "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Model/Model.csproj"
+            },
+            "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Model/Rest.Model.csproj": {
+              "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/Rest.Model/Rest.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/tomek/.dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
