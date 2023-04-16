@@ -10,11 +10,38 @@
   },
   {
     "Id": 2,
-    "CarId": "WW5343W",
+    "CarId": "WW9477W",
     "ClientId": 1,
     "MechanicId": 2,
     "Name": "Cleaning",
     "Description": "fun",
     "Price": 50
+  },
+  {    
+    "Id": 3,
+    "CarId": "WE4406J",
+    "ClientId": 2,
+    "MechanicId": 3,
+    "Name": "Tire change",
+    "Description": "Winter to Summer",
+    "Price": 150
+  },
+  {
+    "Id": 4,
+    "CarId": "WPR223X",
+    "ClientId": 3,
+    "MechanicId": 4,
+    "Name": "Break pads fix",
+    "Description": "Breaking might be important",
+    "Price": 70
+  },
+  {
+    "Id": 5,
+    "CarId": "WW5343W",
+    "ClientId": 4,
+    "MechanicId": 2,
+    "Name": "Bulb change",
+    "Description": "Lights are nice",
+    "Price": 180
   }
 ]
