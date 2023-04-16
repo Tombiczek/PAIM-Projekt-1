@@ -39,6 +39,30 @@ namespace WebApplication.Controllers
       var repairs = _repo.FindById(id);
       return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
     }
+    
+    [HttpGet]
+    [Route("GetByCarId")]
+    public RepairDto[] GetDtoByCarId(int carId)
+    {
+      var repairs = _repo.FindByCarId(carId);
+      return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
+    }
+    
+    [HttpGet]
+    [Route("GetByClientId")]
+    public RepairDto[] GetDtoByClientId(int clientId)
+    {
+      var repairs = _repo.FindByClientId(clientId);
+      return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
+    }
+    
+    [HttpGet]
+    [Route("GetByMechanicId")]
+    public RepairDto[] GetDtoByMechanicId(int mechanicId)
+    {
+      var repairs = _repo.FindByMechanicId(mechanicId);
+      return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
+    }
 
     [HttpGet]
     [Route("GetRepairs")]
@@ -48,7 +72,6 @@ namespace WebApplication.Controllers
 
       return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
     }
-
 
     [HttpGet]
     [Route("RunTests")]

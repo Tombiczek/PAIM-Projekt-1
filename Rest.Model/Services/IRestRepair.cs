@@ -11,5 +11,8 @@ namespace Rest.Model.Services
     {
         public RepairDto[] GetDtoRepairs();
         public RepairDto[] GetDtoById(int id);
+        public RepairDto[] GetDtoByCarId(int carId);
+        public RepairDto[] GetDtoByClientId(int clientId);
+        public RepairDto[] GetDtoByMechanicId(int mechanicId);
     }
 }

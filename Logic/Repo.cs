@@ -34,6 +34,33 @@ namespace Logic
             }
         }
 
+        public Repair[] FindByCarId(int carId)
+        {
+            lock (RepoLock)
+            {
+                IList<Repair> foundRepairs = Repairs.Where(c => c.CarId == carId).ToList();
+                return foundRepairs.ToArray();
+            }
+        }
+        
+        public Repair[] FindByClientId(int clientId)
+        {
+            lock (RepoLock)
+            {
+                IList<Repair> foundRepairs = Repairs.Where(c => c.ClientId == clientId).ToList();
+                return foundRepairs.ToArray();
+            }
+        }
+        
+        public Repair[] FindByMechanicId(int mechanicId)
+        {
+            lock (RepoLock)
+            {
+                IList<Repair> foundRepairs = Repairs.Where(c => c.MechanicId == mechanicId).ToList();
+                return foundRepairs.ToArray();
+            }
+        }
+
         public Repair[] GetRepairs()
         {
             lock(RepoLock)

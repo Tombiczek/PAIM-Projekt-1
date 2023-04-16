@@ -1,12 +1,18 @@
 [
   {
     "Id": 1,
+    "CarId": 1,
+    "ClientId": 1,
+    "MechanicId": 1,
     "Name": "Oil change",
     "Description": "fixing",
     "Price": 200
   },
   {
     "Id": 2,
+    "CarId": 1,
+    "ClientId": 1,
+    "MechanicId": 2,
     "Name": "Cleaning",
     "Description": "fun",
     "Price": 50
