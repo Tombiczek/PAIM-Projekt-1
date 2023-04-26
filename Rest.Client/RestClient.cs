@@ -8,7 +8,7 @@ public class RestClient
     private static readonly HttpClient HttpClient = new();
     
     
-    public static async Task<RepairDto[]> GetById(string webServiceHost, ushort webServicePort, string id)
+    public static async Task<RepairDto[]?> GetById(string webServiceHost, ushort webServicePort, string id)
     {
         var webServiceUri = $"https://{webServiceHost}:{webServicePort}/Repo/GetById?id={id}";
 
@@ -21,7 +21,7 @@ public class RestClient
         return repairs;
     }
     
-    public static async Task<RepairDto[]> GetByCarId(string webServiceHost, ushort webServicePort, string carId)
+    public static async Task<RepairDto[]?> GetByCarId(string webServiceHost, ushort webServicePort, string carId)
     {
         var webServiceUri = $"https://{webServiceHost}:{webServicePort}/Repo/GetByCarId?carId={carId}";
 
@@ -34,7 +34,7 @@ public class RestClient
         return repairs;
     }
     
-    public static async Task<RepairDto[]> GetByClientId(string webServiceHost, ushort webServicePort, string clientId)
+    public static async Task<RepairDto[]?> GetByClientId(string webServiceHost, ushort webServicePort, string clientId)
     {
         var webServiceUri = $"https://{webServiceHost}:{webServicePort}/Repo/GetByClientId?clientId={clientId}";
 
@@ -47,7 +47,7 @@ public class RestClient
         return repairs;
     }
     
-    public static async Task<RepairDto[]> GetByMechanicId(string webServiceHost, ushort webServicePort, string mechanicId)
+    public static async Task<RepairDto[]?> GetByMechanicId(string webServiceHost, ushort webServicePort, string mechanicId)
     {
         var webServiceUri = $"https://{webServiceHost}:{webServicePort}/Repo/GetByMechanicId?mechanicId={mechanicId}";
 
@@ -60,7 +60,7 @@ public class RestClient
         return repairs;
     }
     
-    public static async Task<RepairDto[]> GetRepairs(string webServiceHost, ushort webServicePort)
+    public static async Task<RepairDto[]?> GetRepairs(string webServiceHost, ushort webServicePort)
     {
         var webServiceUri = $"https://{webServiceHost}:{webServicePort}/Repo/GetRepairs";
 
@@ -88,7 +88,7 @@ public class RestClient
         return httpResponseContent;
     }
 
-    private static RepairDto[] ConvertJson(string json)
+    private static RepairDto[]? ConvertJson(string json)
     {
         var jsonSerializerOptions = new JsonSerializerOptions
         {

@@ -14,11 +14,11 @@ public class DummyRestClient
             var repairs = ConvertJson(jsonResponseContent);
             return repairs;
         }
-        private static async Task<string> CallWebServiceId(int id)
+        private static Task<string> CallWebServiceId(int id)
         {
             var repairs = new List<Repair>(RepoReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.Id == id).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
-            return httpResponseContent;
+            return Task.FromResult(httpResponseContent);
         }
         
         //********************************************************
@@ -30,11 +30,11 @@ public class DummyRestClient
             var repairs = ConvertJson(jsonResponseContent);
             return repairs;
         }
-        private static async Task<string> CallWebServiceCarId(string carId)
+        private static Task<string> CallWebServiceCarId(string carId)
         {
             var repairs = new List<Repair>(RepoReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.CarId == carId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
-            return httpResponseContent;
+            return Task.FromResult(httpResponseContent);
         }
         
         //********************************************************
@@ -46,11 +46,11 @@ public class DummyRestClient
             var repairs = ConvertJson(jsonResponseContent);
             return repairs;
         }
-        private static async Task<string> CallWebServiceClientId(int clientId)
+        private static Task<string> CallWebServiceClientId(int clientId)
         {
             var repairs = new List<Repair>(RepoReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.ClientId == clientId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
-            return httpResponseContent;
+            return Task.FromResult(httpResponseContent);
         }
         
         //********************************************************
@@ -62,11 +62,11 @@ public class DummyRestClient
             var repairs = ConvertJson(jsonResponseContent);
             return repairs;
         }
-        private static async Task<string> CallWebServiceMechanicId(int mechanicId)
+        private static Task<string> CallWebServiceMechanicId(int mechanicId)
         {
             var repairs = new List<Repair>(RepoReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.MechanicId == mechanicId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
-            return httpResponseContent;
+            return Task.FromResult(httpResponseContent);
         }
         
         //********************************************************
