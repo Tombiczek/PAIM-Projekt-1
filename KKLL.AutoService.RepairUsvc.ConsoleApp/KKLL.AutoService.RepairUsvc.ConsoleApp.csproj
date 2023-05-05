@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.RepairLogic\KKLL.AutoService.RepairUsvc.RepairLogic.csproj" />
+      <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.RepairModel\KKLL.AutoService.RepairUsvc.RepairModel.csproj" />
+      <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.Rest.Model\KKLL.AutoService.RepairUsvc.Rest.Model.csproj" />
+      <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.Rest.Client\KKLL.AutoService.RepairUsvc.Rest.Client.csproj" />
+      <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.Rest\KKLL.AutoService.RepairUsvc.Rest.csproj" />
+    </ItemGroup>
+
+</Project>

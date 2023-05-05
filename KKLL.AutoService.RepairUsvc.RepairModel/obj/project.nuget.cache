@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pk5/3gLhM+UEks98j/OBt5vm+mDVX1DIA1LYmlWH7r01RPHlX4051xFDwelMmBP5Mo3/HBN31JlJLFtMYhNxaw==",
+  "success": true,
+  "projectFilePath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomek/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.15/microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

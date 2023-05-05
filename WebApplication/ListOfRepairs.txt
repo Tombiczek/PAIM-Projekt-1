@@ -1,2 +1,0 @@
-1, Oil, fixing, 200
-2, Cleaning, fun, 50

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "OT2igYXJpQ2mGlO3t+DJDP6gqIoAR76N35eshaWYKI8a/1q7NwsKIS01KskX5ySEWElcao6V7g8OhrfTFeh7Ew==",
+  "success": true,
+  "projectFilePath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest/KKLL.AutoService.RepairUsvc.Rest.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomek/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/tomek/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

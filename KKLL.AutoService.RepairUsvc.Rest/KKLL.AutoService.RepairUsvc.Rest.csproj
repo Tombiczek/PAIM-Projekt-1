@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.RepairLogic\KKLL.AutoService.RepairUsvc.RepairLogic.csproj" />
+    <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.RepairModel\KKLL.AutoService.RepairUsvc.RepairModel.csproj" />
+    <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.Rest.Model\KKLL.AutoService.RepairUsvc.Rest.Model.csproj" />
+    <ProjectReference Include="..\KKLL.AutoService.RepairUsvc.Tests\KKLL.AutoService.RepairUsvc.Tests.csproj" />
+  </ItemGroup>
+
+</Project>

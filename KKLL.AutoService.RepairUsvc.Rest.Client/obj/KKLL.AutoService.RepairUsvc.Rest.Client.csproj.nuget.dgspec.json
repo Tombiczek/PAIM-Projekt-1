@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Client/KKLL.AutoService.RepairUsvc.Rest.Client.csproj": {}
+  },
+  "projects": {
+    "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/KKLL.AutoService.RepairUsvc.RepairLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/KKLL.AutoService.RepairUsvc.RepairLogic.csproj",
+        "projectName": "KKLL.AutoService.RepairUsvc.RepairLogic",
+        "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/KKLL.AutoService.RepairUsvc.RepairLogic.csproj",
+        "packagesPath": "/Users/tomek/.nuget/packages/",
+        "outputPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tomek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj": {
+                "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/tomek/.dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj",
+        "projectName": "KKLL.AutoService.RepairUsvc.RepairModel",
+        "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj",
+        "packagesPath": "/Users/tomek/.nuget/packages/",
+        "outputPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tomek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/tomek/.dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Client/KKLL.AutoService.RepairUsvc.Rest.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Client/KKLL.AutoService.RepairUsvc.Rest.Client.csproj",
+        "projectName": "KKLL.AutoService.RepairUsvc.Rest.Client",
+        "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Client/KKLL.AutoService.RepairUsvc.Rest.Client.csproj",
+        "packagesPath": "/Users/tomek/.nuget/packages/",
+        "outputPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tomek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/KKLL.AutoService.RepairUsvc.RepairLogic.csproj": {
+                "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairLogic/KKLL.AutoService.RepairUsvc.RepairLogic.csproj"
+              },
+              "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj": {
+                "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj"
+              },
+              "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/KKLL.AutoService.RepairUsvc.Rest.Model.csproj": {
+                "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/KKLL.AutoService.RepairUsvc.Rest.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/tomek/.dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/KKLL.AutoService.RepairUsvc.Rest.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/KKLL.AutoService.RepairUsvc.Rest.Model.csproj",
+        "projectName": "KKLL.AutoService.RepairUsvc.Rest.Model",
+        "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/KKLL.AutoService.RepairUsvc.Rest.Model.csproj",
+        "packagesPath": "/Users/tomek/.nuget/packages/",
+        "outputPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.Rest.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tomek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj": {
+                "projectPath": "/Users/tomek/Library/CloudStorage/OneDrive-Personal/Telekomunikacja/PAIM/Projekt/BetaV3/WebApplication/KKLL.AutoService.RepairUsvc.RepairModel/KKLL.AutoService.RepairUsvc.RepairModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/tomek/.dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

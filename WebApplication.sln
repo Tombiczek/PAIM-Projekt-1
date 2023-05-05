@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{3F6F4356-96DE-4189-8923-5E7EFB961E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KKLL.AutoService.RepairUsvc.Rest", "KKLL.AutoService.RepairUsvc.Rest\KKLL.AutoService.RepairUsvc.Rest.csproj", "{3F6F4356-96DE-4189-8923-5E7EFB961E02}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{11890791-1989-4B65-90A4-9C0264748CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KKLL.AutoService.RepairUsvc.RepairLogic", "KKLL.AutoService.RepairUsvc.RepairLogic\KKLL.AutoService.RepairUsvc.RepairLogic.csproj", "{11890791-1989-4B65-90A4-9C0264748CE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{7B2E0AC9-E459-434F-82A3-CA83F284FFF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KKLL.AutoService.RepairUsvc.RepairModel", "KKLL.AutoService.RepairUsvc.RepairModel\KKLL.AutoService.RepairUsvc.RepairModel.csproj", "{7B2E0AC9-E459-434F-82A3-CA83F284FFF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rest.Model", "Rest.Model\Rest.Model.csproj", "{E2716B2B-E008-46C8-AF9E-8BD929DEF4BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KKLL.AutoService.RepairUsvc.Rest.Model", "KKLL.AutoService.RepairUsvc.Rest.Model\KKLL.AutoService.RepairUsvc.Rest.Model.csproj", "{E2716B2B-E008-46C8-AF9E-8BD929DEF4BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsProj", "TestsProj\TestsProj.csproj", "{D38CCE13-5875-4841-B2C1-A90A7CEDC7E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KKLL.AutoService.RepairUsvc.Tests", "KKLL.AutoService.RepairUsvc.Tests\KKLL.AutoService.RepairUsvc.Tests.csproj", "{D38CCE13-5875-4841-B2C1-A90A7CEDC7E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{79907C41-E4CC-4A66-9EE0-A18CB72D576D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KKLL.AutoService.RepairUsvc.ConsoleApp", "KKLL.AutoService.RepairUsvc.ConsoleApp\KKLL.AutoService.RepairUsvc.ConsoleApp.csproj", "{79907C41-E4CC-4A66-9EE0-A18CB72D576D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.Client", "Rest.Client\Rest.Client.csproj", "{C049DD1E-B4A1-43F1-BCDF-3A168E0E64F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KKLL.AutoService.RepairUsvc.Rest.Client", "KKLL.AutoService.RepairUsvc.Rest.Client\KKLL.AutoService.RepairUsvc.Rest.Client.csproj", "{C049DD1E-B4A1-43F1-BCDF-3A168E0E64F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

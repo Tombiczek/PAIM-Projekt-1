@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/KKLL.AutoService.RepairUsvc.Rest.props" />
+</Project>
