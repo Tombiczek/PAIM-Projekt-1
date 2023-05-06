@@ -3,13 +3,8 @@ using KKLL.AutoService.RepairUsvc.RepairModel.Services;
 
 namespace KKLL.AutoService.RepairUsvc.RepairLogic
 {
-    using RepairLogic;
-    using System;
     using System.Collections.Generic;
-    using System.Diagnostics;
     using System.Linq;
-    using System.Threading.Tasks;
-    using System.Reflection;
 
     // Network = RepairRepository
     // Node = Repair
@@ -66,6 +61,27 @@ namespace KKLL.AutoService.RepairUsvc.RepairLogic
             lock(RepoLock)
             {
                 return Repairs.ToArray();
+            }
+        }
+
+        public void AddNewRepair(Repair newRepair)
+        {
+            lock (RepoLock)
+            {
+                RepairRepository.Repairs.Add(newRepair);
+            }
+        }
+
+        public void DeleteById(int id)
+        {
+            lock (RepoLock)
+            {
+                var repairToBeDeleted = Repairs.Find(c => c.Id == id);
+
+                if (repairToBeDeleted != null)
+                {
+                    RepairRepository.Repairs.Remove(repairToBeDeleted);
+                }
             }
         }
     }

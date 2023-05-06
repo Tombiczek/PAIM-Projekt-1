@@ -13,6 +13,8 @@ namespace KKLL.AutoService.RepairUsvc.RepairModel.Services
         public Repair[] FindByCarId(string carId);
         public Repair[] FindByClientId(int clientId);
         public Repair[] FindByMechanicId(int mechanicId);
+        public void AddNewRepair(Repair newRepair);
+        public void DeleteById(int id);
 
     }
 }

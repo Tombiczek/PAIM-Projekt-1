@@ -13,7 +13,7 @@ namespace KKLL.AutoService.RepairUsvc.RepairLogic
 {
     public class RepairRepositoryReader
     {
-        public static Repair[] ReadRepairs(string filename)
+        public static IEnumerable<Repair>? ReadRepairs(string filename)
         {
             var result = JsonSerializer.Deserialize<Repair[]>(File.ReadAllText(filename));
 

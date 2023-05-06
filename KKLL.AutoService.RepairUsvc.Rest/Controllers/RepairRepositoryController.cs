@@ -19,12 +19,12 @@ namespace KKLL.AutoService.RepairUsvc.Rest.Controllers
 
   [ApiController]
   [Route("[controller]")]
-  public class RepoController : ControllerBase, IRestRepair, ITestsService
+  public class RepairRepositoryController : ControllerBase, IRestRepair, ITestsService
   {
-    private readonly ILogger<RepoController> _logger;
+    private readonly ILogger<RepairRepositoryController> _logger;
     private readonly IRepairRepository _repairRepository;
 
-    public RepoController(ILogger<RepoController> logger)
+    public RepairRepositoryController(ILogger<RepairRepositoryController> logger)
     {
       _logger = logger;
       _repairRepository = new RepairRepository();
@@ -79,6 +79,21 @@ namespace KKLL.AutoService.RepairUsvc.Rest.Controllers
     {
       ITestsService tests = new Tests.Tests();
       return tests.RunTests(host, port);
+    }
+
+    
+    [HttpPost]
+    [Route("AddNewRepair")]
+    public void AddNewDtoRepair(Repair newRepair)
+    {
+      _repairRepository.AddNewRepair(newRepair);
+    }
+
+    [HttpPost]
+    [Route("DeleteById")]
+    public void DeleteDtoById(int id)
+    {
+      _repairRepository.DeleteById(id);
     }
 
   }

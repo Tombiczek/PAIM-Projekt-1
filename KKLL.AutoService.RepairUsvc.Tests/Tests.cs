@@ -18,7 +18,7 @@ public class Tests : ITestsService
 
         try
         {
-            var searchText = "xxx";
+            const string searchText = "xxx";
             
             IRepairRepository repairRepository = new RepairRepository();
             
@@ -35,7 +35,7 @@ public class Tests : ITestsService
         return "No errors";
         }
     
-    private RepairDto[] GetRepairs(string webServiceHost, ushort webServicePort, string searchText)
+    private RepairDto[]? GetRepairs(string webServiceHost, ushort webServicePort, string searchText)
     {
         var webServiceUri =
             $"https://{webServiceHost}:{webServicePort}/RepairRepository/GetRepairs?searchText={searchText}";
@@ -66,7 +66,7 @@ public class Tests : ITestsService
         return httpResponseContent;
     }
 
-    private RepairDto[] ConvertJson(string json)
+    private RepairDto[]? ConvertJson(string json)
     {
         var repairs = JsonSerializer.Deserialize<RepairDto[]>(json);
 
