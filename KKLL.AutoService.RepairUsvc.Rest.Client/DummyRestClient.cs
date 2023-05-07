@@ -16,7 +16,9 @@ public class DummyRestClient
         }
         private static Task<string> CallWebServiceId(int id)
         {
-            var repairs = new List<Repair>(RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.Id == id).ToList();
+            var repairs = new List<Repair>
+                (RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).
+                Where(c => c.Id == id).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
             return Task.FromResult(httpResponseContent);
         }
@@ -32,7 +34,9 @@ public class DummyRestClient
         }
         private static Task<string> CallWebServiceCarId(string carId)
         {
-            var repairs = new List<Repair>(RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.CarId == carId).ToList();
+            var repairs = new List<Repair>
+                (RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).
+                Where(c => c.Plate == carId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
             return Task.FromResult(httpResponseContent);
         }
@@ -48,7 +52,9 @@ public class DummyRestClient
         }
         private static Task<string> CallWebServiceClientId(int clientId)
         {
-            var repairs = new List<Repair>(RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.ClientId == clientId).ToList();
+            var repairs = new List<Repair>
+                (RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).
+                Where(c => c.ClientId == clientId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
             return Task.FromResult(httpResponseContent);
         }
@@ -64,7 +70,9 @@ public class DummyRestClient
         }
         private static Task<string> CallWebServiceMechanicId(int mechanicId)
         {
-            var repairs = new List<Repair>(RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).Where(c => c.MechanicId == mechanicId).ToList();
+            var repairs = new List<Repair>
+                (RepairRepositoryReader.ReadRepairs("ListOfRepairs.json")).
+                Where(c => c.MechanicId == mechanicId).ToList();
             var httpResponseContent = JsonSerializer.Serialize(repairs);
             return Task.FromResult(httpResponseContent);
         }

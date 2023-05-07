@@ -41,10 +41,10 @@ namespace KKLL.AutoService.RepairUsvc.Rest.Controllers
     }
     
     [HttpGet]
-    [Route("GetByCarId")]
-    public RepairDto[] GetDtoByCarId(string carId)
+    [Route("GetByPlate")]
+    public RepairDto[] GetDtoByPlate(string plate)
     {
-      var repairs = _repairRepository.FindByCarId(carId);
+      var repairs = _repairRepository.FindByPlate(plate);
       return repairs.Select(repair => repair.ConvertToRepairDto()).ToArray();
     }
     
@@ -89,7 +89,7 @@ namespace KKLL.AutoService.RepairUsvc.Rest.Controllers
       _repairRepository.AddNewRepair(newRepair);
     }
 
-    [HttpPost]
+    [HttpDelete]
     [Route("DeleteById")]
     public void DeleteDtoById(int id)
     {

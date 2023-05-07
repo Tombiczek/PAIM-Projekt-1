@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "CarId": "WW9477W",
+    "Plate": "WW9477W",
     "ClientId": 1,
     "MechanicId": 1,
     "Name": "Oil change",
@@ -10,7 +10,7 @@
   },
   {
     "Id": 2,
-    "CarId": "WW9477W",
+    "Plate": "WW9477W",
     "ClientId": 1,
     "MechanicId": 2,
     "Name": "Cleaning",
@@ -19,7 +19,7 @@
   },
   {    
     "Id": 3,
-    "CarId": "WE4406J",
+    "Plate": "WE4406J",
     "ClientId": 2,
     "MechanicId": 3,
     "Name": "Tire change",
@@ -28,7 +28,7 @@
   },
   {
     "Id": 4,
-    "CarId": "WPR223X",
+    "Plate": "WPR223X",
     "ClientId": 3,
     "MechanicId": 4,
     "Name": "Break pads fix",
@@ -37,7 +37,7 @@
   },
   {
     "Id": 5,
-    "CarId": "WW5343W",
+    "Plate": "WW5343W",
     "ClientId": 4,
     "MechanicId": 2,
     "Name": "Bulb change",

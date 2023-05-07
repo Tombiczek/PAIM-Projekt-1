@@ -29,11 +29,11 @@ namespace KKLL.AutoService.RepairUsvc.RepairLogic
             }
         }
 
-        public Repair[] FindByCarId(string carId)
+        public Repair[] FindByPlate(string plate)
         {
             lock (RepoLock)
             {
-                IList<Repair> foundRepairs = Repairs.Where(c => c.CarId == carId).ToList();
+                IList<Repair> foundRepairs = Repairs.Where(c => c.Plate == plate).ToList();
                 return foundRepairs.ToArray();
             }
         }

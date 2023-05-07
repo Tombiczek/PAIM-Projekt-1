@@ -10,7 +10,7 @@ namespace KKLL.AutoService.RepairUsvc.RepairModel.Services
     {
         public Repair[] GetRepairs();
         public Repair[] FindById(int id);
-        public Repair[] FindByCarId(string carId);
+        public Repair[] FindByPlate(string plate);
         public Repair[] FindByClientId(int clientId);
         public Repair[] FindByMechanicId(int mechanicId);
         public void AddNewRepair(Repair newRepair);

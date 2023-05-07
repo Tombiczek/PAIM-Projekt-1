@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Json;
 using KKLL.AutoService.RepairUsvc.Rest.Model.Model;
 
@@ -71,6 +72,33 @@ public class RestClient
         var repairs = ConvertJson(jsonResponseContent);
 
         return repairs;
+    }
+
+    public static async Task AddNewRepair(string webServiceHost, ushort webServicePort, int id, string plate,
+        int clientId, int mechanicId, string name, string description, int price)
+    {
+        var webServiceUri = $"https://{webServiceHost}:{webServicePort}/RepairRepository/AddNewRepair";
+
+        using StringContent jsonContent = new(JsonSerializer.Serialize(new
+        {
+            id = id,
+            plate = plate,
+            clientId = clientId,
+            mechanicId = mechanicId,
+            name = name,
+            description = description,
+            price = price
+        }), Encoding.UTF8, "application/json");
+
+        var result = await HttpClient.PostAsync(webServiceUri, jsonContent);
+        var resultContent = await result.Content.ReadAsStringAsync();
+    }
+
+    public static async Task DeleteById(string webServiceHost, ushort webServicePort, string id)
+    {
+        var webServiceUri = $"https://{webServiceHost}:{webServicePort}/RepairRepository/DeleteById?id={id}";
+        var webServiceCall = CallWebService(HttpMethod.Delete, webServiceUri);
+        var jsonResponseContent = await CallWebService(HttpMethod.Delete, webServiceUri);
     }
     
     private static async Task<string> CallWebService(HttpMethod httpMethod, string webServiceUri)
